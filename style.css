@@ -1,0 +1,56 @@
+.t{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+}
+ol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px   ;
+}
+ol li{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    display: flex;
+    background-color: lightblue;
+    width: 60%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+p{
+    flex: 1 1  45%;
+    padding: 10px;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    height: 80vh;
+}
+.aside1{
+    background-color: yellow;
+    flex-grow: 1;
+}
+.aside2{
+    background-color:mediumvioletred;
+    flex-grow: 1;
+}
+section p{
+    padding: 10px;
+    margin: 10px;
+}
+.F{
+    background-color: chartreuse;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
